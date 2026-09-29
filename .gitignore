@@ -1,0 +1,77 @@
+# ==========================================
+# 1. Java & Build Tools Outputs
+# ==========================================
+target/
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+*.rar
+
+# ==========================================
+# 2. IDE & Editor Files
+# ==========================================
+# IntelliJ IDEA
+.idea/
+**/.idea/
+*.iws
+*.iml
+*.ipr
+out/
+**/out/
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+**/.settings/
+bin/
+**/bin/
+
+# VS Code
+.vscode/
+**/.vscode/
+*.code-workspace
+
+# ==========================================
+# 3. Maven Local Wrapper Executables (Optional)
+# ==========================================
+# Remove '#' below if you don't want to commit maven wrapper binaries
+# .mvn/wrapper/maven-wrapper.jar
+
+# ==========================================
+# 4. OS / System Generated Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# 5. Environment & Sensitive Configs
+# ==========================================
+*.env
+.env
+.env.*
+*.log
+# Spring Boot Configs with secrets
+application.properties
+**/application.properties
+application.yml
+**/application.yml
+application-*.properties
+application-*.yml
+
+# Node.js
+node_modules/
+**/node_modules/
+
+# WhatsApp Auth Tokens
+wa-otp-service/auth_info_baileys/
+**/auth_info_baileys/
